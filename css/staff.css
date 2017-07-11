@@ -1,0 +1,8 @@
+#content-table a{
+	border:none!important;
+	background-color: white;
+	color: blue;
+}
+#content-table{
+	padding-top: 5%;
+}

@@ -1,0 +1,269 @@
+
+
+
+
+/*top navigator attribute*/
+#navbar{
+	background-color: #353535;
+	width:100%;
+	display: -webkit-flex;
+   	display: flex;
+  	 -webkit-flex-direction: row;
+  	 flex-direction: row;
+  	 -webkit-justify-content: flex-end;
+  	 justify-content: flex-end;
+
+  	 
+}
+
+#top-nav li a{
+	color:#ffffff;
+	font-size: 12px;
+}
+#top-nav li a:hover{
+	background-color: black;
+}
+#navigator{
+	background-color: #911e1e;
+	width: 100%;
+	height: 100px;
+
+}
+
+/*banner*/
+#navigator img{
+	width: 12%;
+	padding-top: 1%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*the second navigator attribute*/
+.navigator{
+	background-color: #911e1e;
+	width: 100%;
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+
+
+}
+
+
+#sec-nav li a{
+	color:white;
+	font-size: 14px;
+	width: 100%;
+	
+	padding-right:50px ;
+	padding-left: 50px;
+	text-align: center;
+
+	
+}
+#sec-nav li a:hover{
+	color:#911e1e;
+}
+.current{
+	background-color: white;
+	color: #911e1e !important;
+
+
+}
+.current_top{
+	background-color:black;
+}
+#top-drop a:hover{
+	background-color: grey!important;
+	text-decoration: none; 
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black !important;
+    padding: 12px;
+
+    font-weight: bold;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown-nav {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+
+
+
+/*image showcase*/
+#showcase.headline{
+	height: 400px;
+	position: relative;
+	width:auto;
+}
+
+#showcase img{
+	height: 100%;
+	width: 100%;
+	display: block;
+    margin: 0 auto;
+}
+.text a{
+	text-decoration: none;
+	color: white;
+}
+.headline .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(53,53,53,0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+
+}
+.headline:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+	/*news*/
+	#news{
+		padding-top: 5%;
+	}
+	#content{
+		padding-top: -4%;
+		height: 250px;
+	}
+	#content img{
+		padding-bottom: 10%;
+		padding-top: -5%;
+	}
+
+	/*video content*/
+	#video-content{
+		height: 400px;
+		background-color: white;
+		color: #353535;
+		padding-top: 3%;
+	}
+	#video{
+		padding-left: 10%;
+
+	}
+	#text-video{
+		padding-right: 10%;
+
+
+	}
+
+
+
+
+
+/*footer*/
+
+
+#footer-con{
+	background-color: #353535;
+	height: 300px;
+	padding-top: 50px;
+	width: 100%;
+	position: relative;
+
+}
+.footer-ul{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	padding-right: 20px;
+	border-right: solid;
+	border-right-width: 0.5px;
+	border-color: grey;
+}
+
+.footer-ul li a{
+	color:#ededed;
+	font-size:14px;
+
+}
+
+.footer-ul li{
+	text-align: right;
+	line-height: 30px;
+	
+}
+#logoVGU{
+	width: 30%;
+	margin-left: 50%;
+	margin-top: 10%;
+}
+
+
+/*animation*/
+
+#animation{
+  background-color: #911e1e;
+
+  text-align: center;
+  color: white;
+  padding-top:5em;
+  padding-bottom: 5em;
+
+}
+
+#animation a { color:white; text-decoration: none;  font-size: 60px; font-family: "orbitron"}

@@ -1,0 +1,17 @@
+.panel a{
+	font-size: 20px;
+
+}
+.panel a:hover {
+	text-decoration: none;
+	color:#911e1e;
+}
+.panel a:visited{
+	text-decoration: none;	
+}
+strong{
+	color:#911e1e;
+}
+#wrap{
+	padding-bottom: 10%;
+}

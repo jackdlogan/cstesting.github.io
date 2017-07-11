@@ -1,0 +1,47 @@
+
+.panel .panel-heading .panel-title{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.panel a{
+	background: none!important;
+	border:none !important;
+	color: #353535!important;
+	width: 100%;
+	padding: 10px!important;
+
+}
+
+
+#pills li{
+	width: 20%;
+
+}
+#pills li a{
+	background-color: #c9c9c9;
+	color: #353535;
+	height: 70px;
+	width: 100%;
+
+}
+
+#content{
+	padding-bottom: 50px;
+	height: 100%;
+}
+#Recommend img{
+
+	padding-left: 5%;
+	width: 60%;
+
+
+}
+#content a:hover{
+	background-color: grey!important;
+	color:white!important;
+}
+#wrap{
+	padding: 0 10% 0 10%;
+}
+
